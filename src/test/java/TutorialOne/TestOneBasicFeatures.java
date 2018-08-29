@@ -5,9 +5,10 @@ import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import static org.hamcrest.Matchers.equalTo;
 
 import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.hasItems;
 
 public class TestOneBasicFeatures {
 
@@ -66,5 +67,16 @@ public class TestOneBasicFeatures {
                 .then()
                 .statusCode(HttpStatus.SC_OK);
 
+    }
+
+    @Test
+    public void testPresenceOfItems(){
+        //testing if given items are present in the response body
+
+        when()
+                .get("http://services.groupkt.com/country/search?text=ania")
+                .then()
+                .body("RestResponse.result.name", hasItems("Albania","Lithuania","Mauritania","Romania","Tanzania, United Republic of"))
+                .log().all();
     }
 }

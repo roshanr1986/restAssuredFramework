@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TutorialOne.testCountryName" duration-ms="6882" started-at="2018-08-29T17:42:13Z" finished-at="2018-08-29T17:42:20Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="6882" started-at="2018-08-29T17:42:13Z" finished-at="2018-08-29T17:42:20Z">
+      <class name="TutorialOne.testCountryName">
+        <test-method status="PASS" signature="testCountryName(java.lang.String, java.lang.String)[pri:0, instance:TutorialOne.testCountryName@2f7a2457]" name="testCountryName" duration-ms="2999" started-at="2018-08-29T23:12:14Z" data-provider="countryData" finished-at="2018-08-29T23:12:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[United States of America]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountryName -->
+        <test-method status="PASS" signature="testCountryName(java.lang.String, java.lang.String)[pri:0, instance:TutorialOne.testCountryName@2f7a2457]" name="testCountryName" duration-ms="735" started-at="2018-08-29T23:12:17Z" data-provider="countryData" finished-at="2018-08-29T23:12:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Albania]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountryName -->
+        <test-method status="PASS" signature="testCountryName(java.lang.String, java.lang.String)[pri:0, instance:TutorialOne.testCountryName@2f7a2457]" name="testCountryName" duration-ms="737" started-at="2018-08-29T23:12:18Z" data-provider="countryData" finished-at="2018-08-29T23:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DZ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Algeria]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountryName -->
+        <test-method status="PASS" signature="testCountryName(java.lang.String, java.lang.String)[pri:0, instance:TutorialOne.testCountryName@2f7a2457]" name="testCountryName" duration-ms="716" started-at="2018-08-29T23:12:19Z" data-provider="countryData" finished-at="2018-08-29T23:12:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[American Samoa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountryName -->
+        <test-method status="PASS" signature="testCountryName(java.lang.String, java.lang.String)[pri:0, instance:TutorialOne.testCountryName@2f7a2457]" name="testCountryName" duration-ms="719" started-at="2018-08-29T23:12:19Z" data-provider="countryData" finished-at="2018-08-29T23:12:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Andorra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCountryName -->
+      </class> <!-- TutorialOne.testCountryName -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TutorialOne.testCountryName -->
+</testng-results>
