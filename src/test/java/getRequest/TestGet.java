@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package getRequest;
 
 import io.restassured.RestAssured;
@@ -15,7 +15,7 @@ import static org.hamcrest.Matchers.equalToIgnoringCase;
 
 
 
-public class TestGet extends BaseClass {
+public class TestGet extends BaseClass  {
     public static String responseJson;
    // String URL = "http://localhost:3000/posts/1";
 
@@ -62,6 +62,7 @@ public class TestGet extends BaseClass {
     }
 
 }
+/*
 =======
 package getRequest;
 
@@ -127,3 +128,4 @@ public class TestGet extends BaseClass {
 
 }
 >>>>>>> e4c99d26c3d2ef467da4c18737950f021e07ee40
+*/
